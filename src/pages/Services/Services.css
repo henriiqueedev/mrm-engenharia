@@ -1,0 +1,24 @@
+.services {
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.services__form{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  margin-top: 8px;
+  color: #69727d;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}

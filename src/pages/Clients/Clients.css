@@ -1,0 +1,27 @@
+.clients {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.clients h2 {
+  margin-bottom: 1rem;
+}
+
+.clients__logos {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.client-logo {
+  width: 100px;
+  height: 50px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #666;
+  border-radius: 4px;
+}

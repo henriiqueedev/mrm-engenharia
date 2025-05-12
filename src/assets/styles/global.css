@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir o layout flexível */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 67.89vh; /* Garante que o conteúdo ocupe pelo menos 100% da altura da tela */
+}
+
+footer {
+  margin-top: auto; /* Empurra o footer para o final */
+}

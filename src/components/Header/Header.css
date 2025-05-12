@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  background-color: #133D6A;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contêiner para limitar a largura e centralizar */
+.header__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* Deixa logo e menu em lados opostos */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*logo */
+.header__logo img {
+  max-height: 80px;
+}
+
+/* Menu */
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Links do menu */
+.header__nav a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  color: white;
+
+}
+
+.header__nav a:hover {
+    color: #007bff;
+}

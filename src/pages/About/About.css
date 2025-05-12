@@ -1,0 +1,20 @@
+.about {
+  padding: 2rem 0;
+}
+
+.about__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about__content img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.about__content div {
+  flex: 1;
+}

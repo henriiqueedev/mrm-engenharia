@@ -1,0 +1,60 @@
+.projects {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 1.5rem;
+  text-align: center
+}
+
+.projects__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center
+}
+
+.project__card {
+  width: 320px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+.project__card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project__info {
+  padding: 1rem;
+}
+
+.project__info h3 {
+  font-size: 0.9rem;
+  color: #EEB600;
+  font-weight: bold;
+}
+
+.project__info h4 {
+  font-size: 1.1rem;
+  color: #EEB600;
+  margin-bottom: 0.5rem;
+}
+
+.project__info p {
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+
+.project__info p strong {
+  font-weight: bold;
+  color: #333;
+}
