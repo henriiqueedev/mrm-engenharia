@@ -49,9 +49,9 @@ const Footer: React.FC = () => {
               {/* Localização */}
               <div className="footer-section">
                   <h3>Localização</h3>
-                  <p>Rua Para de Minas,341 </p>
+                  <p>Rua Treze de Maio, 239, Centro </p>
                   <p>Formiga - MG.</p>
-                  <p>CEP: 35.570-182</p>
+                  <p>CEP: 35570-182</p>
               </div>
           </div>
 
